@@ -10,8 +10,16 @@ import Testing
 
 struct XcodeCloud_ExampleTests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test
+    func testExample1() async throws {
+        // Basit bir eşitlik kontrolü
+        #expect(10 == 10)
     }
-
+    
+    @Test
+    func testExample2() async throws {
+        // Basit bir boolean kontrolü
+        let isTrue = true
+        #expect(isTrue)
+    }
 }
