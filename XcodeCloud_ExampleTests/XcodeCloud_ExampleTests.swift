@@ -10,8 +10,9 @@ import Testing
 
 struct XcodeCloud_ExampleTests {
 
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
+    @Test
+    func testExample2() async throws {
+        let isTrue = true
+        #expect(isTrue)
     }
-
 }
