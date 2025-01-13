@@ -12,9 +12,20 @@ import Testing
 struct XcodeCloud_ExampleTests {
 
     @Test
-    func testExample2() async throws {
+    func test_is_true() async throws {
         let isTrue = true
         #expect(isTrue)
     }
+    
+    @Test
+    func equalTheNumber() async throws {
+        #expect(10 == 10)
+    }
+    
+    @Test
+    func equalTheText() async throws {
+        #expect("Xyz" == "Xy")
+    }
+
 }
 // swiftlint:enable type_name
