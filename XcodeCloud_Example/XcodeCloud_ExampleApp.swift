@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+// swiftlint:disable type_name
 
 @main
 struct XcodeCloud_ExampleApp: App {

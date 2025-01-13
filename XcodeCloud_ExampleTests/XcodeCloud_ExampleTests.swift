@@ -8,6 +8,7 @@
 import Testing
 @testable import XcodeCloud_Example
 
+// swiftlint:disable type_name
 struct XcodeCloud_ExampleTests {
 
     @Test
@@ -16,3 +17,4 @@ struct XcodeCloud_ExampleTests {
         #expect(isTrue)
     }
 }
+// swiftlint:enable type_name
