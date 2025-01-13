@@ -1,6 +1,6 @@
 //
-//  XcodeCloud_ExampleTests.swift
-//  XcodeCloud_ExampleTests
+//  SmokeTest.swift
+//  SmokeTest
 //
 //  Created by Yakup Caglan on 10.01.2025.
 //
@@ -8,7 +8,7 @@
 import Testing
 @testable import XcodeCloud_Example
 
-struct XcodeCloud_ExampleTests {
+struct SmokeTest {
 
     @Test
     func testExample1() async throws {
