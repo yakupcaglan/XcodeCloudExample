@@ -27,6 +27,7 @@
 		C14840302D31B6AE00D1C018 /* XcodeCloud_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCloud_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14840442D31B6B000D1C018 /* XcodeCloud_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeCloud_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C148404E2D31B6B000D1C018 /* XcodeCloud_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeCloud_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1928F812D35336B00F2DF7B /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +89,7 @@
 		C14840272D31B6AE00D1C018 = {
 			isa = PBXGroup;
 			children = (
+				C1928F802D35335F00F2DF7B /* ci_scripts */,
 				C14840322D31B6AE00D1C018 /* XcodeCloud_Example */,
 				C14840472D31B6B000D1C018 /* XcodeCloud_ExampleTests */,
 				C14840512D31B6B000D1C018 /* XcodeCloud_ExampleUITests */,
@@ -103,6 +105,14 @@
 				C148404E2D31B6B000D1C018 /* XcodeCloud_ExampleUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C1928F802D35335F00F2DF7B /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				C1928F812D35336B00F2DF7B /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

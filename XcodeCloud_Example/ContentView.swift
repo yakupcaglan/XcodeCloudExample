@@ -14,6 +14,11 @@ struct ContentView: View {
 
     var body: some View {
         NavigationSplitView {
+            
+            
+            
+            
+            
             List {
                 ForEach(items) { item in
                     NavigationLink {
