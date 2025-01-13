@@ -59,6 +59,11 @@
 			path = XcodeCloud_ExampleUITests;
 			sourceTree = "<group>";
 		};
+		C1928F982D3537B000F2DF7B /* SmokeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmokeTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,7 @@
 				C1928F802D35335F00F2DF7B /* ci_scripts */,
 				C14840322D31B6AE00D1C018 /* XcodeCloud_Example */,
 				C14840472D31B6B000D1C018 /* XcodeCloud_ExampleTests */,
+				C1928F982D3537B000F2DF7B /* SmokeTests */,
 				C14840512D31B6B000D1C018 /* XcodeCloud_ExampleUITests */,
 				C14840312D31B6AE00D1C018 /* Products */,
 			);
@@ -155,6 +161,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C14840472D31B6B000D1C018 /* XcodeCloud_ExampleTests */,
+				C1928F982D3537B000F2DF7B /* SmokeTests */,
 			);
 			name = XcodeCloud_ExampleTests;
 			packageProductDependencies = (
